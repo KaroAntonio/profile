@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karo Antonio</title>
+    <script src="load_nav.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <!--
-    <script src="data_science_script.js"></script>
-    -->
+    <script src="tech_skills_heatmap_plotly.js"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,30 +15,41 @@
 
 <!-- Header -->
 <header>
-    <h1><a href="index.html">Karo</a> {Data Science} &#10024;</h1>
-    <nav><a href="data_science.html">Data Science</a> 
-        :: Self-Quantifications 
-        :: Ecology 
-        :: Impact 
-    </nav>
+
+    <div id="nav-placeholder"></div>
+    
 </header>
 
-    <!-- Main Content Area -->
-    <main>
-
-    <!--
-    <iframe src="https://docs.google.com/spreadsheets/d/1lcy7yvOz77e954EzQJAYZZa_nt8O1M_1-ibRdTyvpe0/edit#gid=0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-    -->
-
+<!-- Main Content Area -->
+<main>
+    <div>
+        I'm Karo, I take an eco-socially oriented approach to data science. <br>
+        I prioritize high leverage paths to ESG goals through clear metrics.
+    </div>
+    <br>
+    <div>
+        <u>I work in and towards these domains:</u>
+        <ul>
+            <li>ESG investment impact</li>
+            <li>Urban sustainability</li>
+            <li>Ecology economic benefits</li>
+            <li>Ecology mapping</li>
+        </ul>
+    </div>
+    <div>
+        I'm currently seeking Data Science projects / contracts / roles.
+    </div>
+    <br>
     <!-- Container for the heat map -->
+    <div>
+        <u>Some technical skills: </u>
+        <br>
+        <br>
+    </div>
     <div id="data-science-skills-heatmap"></div>
-       
-    </main>
+    
+</main>
 
-    <!-- Footer -->
 
-    <!-- Optionally, you can include JavaScript files here -->
-    <!-- <script src="js/script.js"></script> -->
-    <script src="tech_skills_heatmap_plotly.js"></script>
 </body>
 </html>

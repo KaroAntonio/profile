@@ -1,11 +1,11 @@
-Tech,Total Months,Research,Bootcamp,Google,Trellis,Studio Olafur Eliasson,U of T,Interactive Art
+Tech,Total Months,Research,Bootcamp,Google,Trellis,Studio Olafur,U of T,Interactive Art
 Javascript,56,6,,10,,14,20,6
 Python,45,12,2,3,2,2,24,
 SQL,45,3,,18,,14,10,
 Java,42,6,,24,,,12,
-Java Beam-style Pipelines,18,,,18,,,,
-pandas / numpy / matplotlib / sns,17,6,2,2,1,,6,
-Google Earth Engine,14,2,,12,,,,
+Java Beam-like,18,,,18,,,,
+pandas / numpy,17,6,2,2,1,,6,
+Earth Engine,14,2,,12,,,,
 scikit / scipy,14,6,2,,,,6,
 Three.js,12,,,,,6,,6
 Colab / Jupyter,10,4,2,4,,,,
@@ -16,5 +16,5 @@ keras / tensorflow,8,3,,,,1,4,
 C,6,,,,,,6,
 AWS,6,,,,,6,,
 Docker,3,1,,,2,,,
-Kubernetes &like,3,,,3,,,,
+Kubernetes-like,3,,,3,,,,
 R,1,,,,,,1,

@@ -40,8 +40,9 @@ fetch('data/data_science_skills.csv')
         displayModeBar: false, // Hide the mode bar (including buttons for zoom, pan, etc.)
         staticPlot: true, // Render the plot as a static image
 
-        height: 1000,
-        width: 700,
+        // Set width and height at a 7:10 ratio
+        height: 9 * 85,
+        width: 7 * 85,
         
         annotations: [],
         xaxis: {
@@ -55,7 +56,7 @@ fetch('data/data_science_skills.csv')
             autosize: true,
         },
         margin: {
-            l: 300 // Adjust the left margin value as needed
+            l: 200 // Adjust the left margin value as needed
         }
     };
 

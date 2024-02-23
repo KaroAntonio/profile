@@ -43,6 +43,8 @@ a:visited {
     color: inherit; /* Inherit text color from parent */
 }
 
-#data-science-skills-heatmap {
-    padding-left: 20px !important; /* Adjust the value as needed */
+u {
+    text-decoration: underline;
+    text-underline-offset: 0.3em; /* Adjust the offset as needed */
+    text-decoration-thickness: 0.1em; /* Adjust the thickness as needed */
 }
